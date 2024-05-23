@@ -82,9 +82,6 @@ html {
     font-weight: 700;
 }
 
-.about-link {
-    text-decoration: none;
-}
 
 .about-btn:active {
     box-shadow: 3px 5px #808080;
