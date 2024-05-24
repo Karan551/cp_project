@@ -48,32 +48,22 @@ html {
     border: 1px solid black;
     border-radius: 5px;
 }
-
-/* #fb{
-  justify-self: start;
- } */
+.main-section{
+    background-color: rgb(243 244 246);
+     background-color: #e5e7eb;
+    
+}
 
 #direction {
     cursor: pointer;
 }
 
-#about-us {
-    /* background: aliceblue;
-    background-color: var(--bg-orange); */
-
-}
-
 .col .about-para {
     text-align: justify;
-    /* column-count: 2;
-  column-gap: 20px;
-  column-rule-style: solid; */
 
 }
 
 .about-btn,.other-service-btn {
-
-    background-color: #f5f5f5;
     background-color: #5356FF;
     text-align: center;
     display: inline-block;
@@ -81,7 +71,6 @@ html {
     border-radius: 10rem;
     font-weight: 700;
 }
-
 
 .about-btn:active {
     box-shadow: 3px 5px #808080;
