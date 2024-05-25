@@ -9,8 +9,8 @@
     max-height: 100px;
     border-radius: 5px;
 }
-html {
-    scroll-behavior: smooth;
+html,body {
+    scroll-behavior: smooth !important;
 }
 
 :root {
@@ -29,8 +29,6 @@ html {
 }
 
 .carousel-item img {
-    /* max-width: 100vh; */
-    /* width: 100%; */
     min-width: 100vh;
     object-fit: cover;
     height: 300px;
@@ -44,7 +42,7 @@ html {
     opacity: 1;
 }
 
-/* link color */
+
 .nav-link:hover {
     color: #f4623a;
 }
@@ -52,19 +50,21 @@ html {
 .social-icons .icons {
     max-height: 30px;
     max-width: 30px;
-    /* width: 100%; */
 }
 
 .social-icons {
-    max-width: 300px;
+    max-width: 250px;
     display: grid;
     gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 0.5rem 0.75rem;
-    /* justify-items: center; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+    padding: 0.75rem 0.75rem;
     align-items: start;
     border: 1px solid black;
     border-radius: 5px;
+}
+.icon-center{
+    text-align: -webkit-center;
 }
 
 .main-section {
@@ -111,7 +111,7 @@ html {
 }
 
 
-/* this is whatsapp fix button */
+
 .whatsapp-enquiry {
     position: fixed;
     bottom: 5%;
