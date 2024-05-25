@@ -5,5 +5,27 @@ directionBtn.addEventListener("click", () => {
 
   directionBtn.href = destinationAddress;
   directionBtn.target = "_blank";
+});
+
+//
+window.addEventListener("DOMContentLoaded", (event) => {
+  const navShrink = function () {
+    const navCollapse = document.querySelector("#main-nav");
+    if (!navCollapse) {
+      return;
+    }
+    if (window.scrollY === 0) {
+      navCollapse.classList.remove("navbar-shrink");
+    } else {
+      navCollapse.classList.add("navbar-shrink");
+    }
+  };
+// Shrink the navbar
+navShrink()
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navShrink);
+
+
+
 
 });
