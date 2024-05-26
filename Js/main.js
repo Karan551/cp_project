@@ -6,3 +6,11 @@ directionBtn.addEventListener("click", () => {
   directionBtn.href = destinationAddress;
   directionBtn.target = "_blank";
 });
+
+function urlHandller(){
+  if (window.location !== "https://yourtaxguy.in/"){
+    window.location="https://yourtaxguy.in/"
+
+  }
+}
+urlHandller()
