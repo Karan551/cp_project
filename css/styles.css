@@ -3,6 +3,10 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+:root {
+    --bg-orange: hsla(13, 85%, 79%, 0.624);
+}
+
 
 #logo{
     max-width: 100px;
@@ -13,9 +17,17 @@ html,body {
     scroll-behavior: smooth !important;
 }
 
-:root {
-    --bg-orange: hsla(13, 85%, 79%, 0.624);
+/* utility classes */
+.mw-1400{
+    max-width: 1400px;
 }
+.mw-400{
+    max-width: 700px;
+}
+.h-350{
+    height: 450px;
+}
+
 
 #mainNav {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
