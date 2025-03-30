@@ -24,13 +24,14 @@ const initApp = () => {
   const copyRightElement = document.querySelector(".copyright-year");
   const today = new Date();
   const currentYear = today.getFullYear();
-  // console.log("this is current year::", currentYear, String(currentYear + 1).slice(-2));
+
   copyRightElement.innerHTML = `${currentYear}-${String(currentYear + 1).slice(-2)}`;
 
 };
 
 
 window.addEventListener("DOMContentLoaded", initApp);
+
 window.addEventListener("offline", (e) => {
   console.log("Internet connection is off.");
 });
