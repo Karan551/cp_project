@@ -302,7 +302,7 @@ body {
     font-size: 1rem;
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
     .h-fs-7{
         font-size: 1rem !important;
     }
