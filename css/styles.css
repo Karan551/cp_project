@@ -58,12 +58,7 @@ body {
 }
 
 
-/*------------------------ responsive images */
 
-.blur-img {
-    filter: blur(1px);
-    /* filter: grayscale(100%); */
-}
 
 
 /* ------------------- */
@@ -172,14 +167,11 @@ body {
 
 
 /* About me section */
-/* .about {
-    
-} */
+
 
 .about-content {
     padding-top: 100px;
-    /* TODO:
- */
+
 }
 
 /*.single-about-txt*/
@@ -202,8 +194,6 @@ body {
 }
 
 .single-about-add-info h3 {
-    /* color: #636a82;
-    font-size: 16px; */
     text-transform: capitalize;
 }
 
@@ -222,32 +212,13 @@ body {
     box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
 }
 
-.single-about-img:before {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 109%;
-    height: 100%;
-    background: rgba(31, 44, 108, .3);
-}
+
 
 .single-about-img img {
     max-width: 500px;
     height: 468px;
 }
 
-.about-list-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 109%;
-    height: 90px;
-    background: #1f2c6c;
-}
 
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -279,10 +250,7 @@ body {
 
 /*  */
 .section-heading h2 {
-    /* font-size: 24px; */
 
-
-    /* padding-bottom: 50px; */
     border-bottom: 1.5px solid hsl(0, 0%, 30%);
 }
 
@@ -332,4 +300,13 @@ body {
 .content-part p {
     margin: 0;
     font-size: 1rem;
+}
+
+@media screen and (max-width:350px) {
+    .h-fs-7{
+        font-size: 1rem !important;
+    }
+    .fs-7{
+        font-size: 14px !important;
+    }
 }
